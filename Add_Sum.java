@@ -5,6 +5,7 @@ class Add_Sum{
 		BufferedReader br= new BufferedReader(new FileReader("Nos.txt"));
 		int num1=Integer.parseInt(br.readLine());
 		int num2=Integer.parseInt(br.readLine());
-		System.out.println("Sum Of Nos: "+(num1+num2));
+		int num3=num1+num2;
+		System.out.println("Sum Of Nos: "+num3);
 	}
 }
